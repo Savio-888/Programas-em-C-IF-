@@ -27,7 +27,7 @@ int main(){
             printf("Segunda coluna: \n");
         }
         for (j = 0; j < 7; ++j){
-            printf("[%d] ", C[i][j]);
+            printf("[%d] ", C[j][i]);
         }
         printf("\n");
     }
